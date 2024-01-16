@@ -14,7 +14,7 @@ class HealthPotion extends Item {           //HealthPotion class inherits from I
     }
 
     public void use(Pokemon pokemon) {
-        pokemon.setHP(pokemon.getHP() + healAmount);
+        pokemon.setHp(pokemon.getHp() + healAmount);
     }
 
     public void displayInfo() {

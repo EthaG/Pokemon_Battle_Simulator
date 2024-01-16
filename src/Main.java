@@ -75,9 +75,9 @@ class Main {
             int j = i+1;
             while (beyu2.getPokemons()[i] != null && j < beyu2.getPokemons().length) {
                 if (beyu2.getPokemons()[j] != null && beyu2.getPokemons()[i].getName().compareToIgnoreCase(beyu2.getPokemons()[j].getName()) > 0) {
-                    Pokemon temp = beyu2.getPokemons()[i];
+                    Pokemon tempMon = beyu2.getPokemons()[i];
                     beyu2.getPokemons()[i] = beyu2.getPokemons()[j];
-                    beyu2.getPokemons()[j] = temp;
+                    beyu2.getPokemons()[j] = tempMon;
                 }
                 j = j + 1;
             }

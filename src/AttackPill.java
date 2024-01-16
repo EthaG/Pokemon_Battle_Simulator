@@ -14,7 +14,7 @@ class AttackPill extends Item {         //AttackPill class inherits from Item cl
     }
 
     public void use(Pokemon pokemon) {
-        pokemon.setATK(pokemon.getATK() + boostVal);
+        pokemon.setAtk(pokemon.getAtk() + boostVal);
     }
 
     public void displayInfo() {
